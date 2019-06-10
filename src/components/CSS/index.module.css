@@ -1,0 +1,16 @@
+.backgroundImage { 
+background-color: black;
+background-blend-mode: screen;
+width: 70%;
+height:auto;
+margin: auto;
+    
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

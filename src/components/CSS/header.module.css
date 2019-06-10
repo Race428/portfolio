@@ -1,0 +1,13 @@
+.links{
+    font-size: 2em;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    /* padding-bottom: 4em; */
+    margin: 1em;
+}
+
+.links a { 
+    text-decoration: none;
+    color: white;
+}
