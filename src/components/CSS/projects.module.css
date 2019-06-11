@@ -1,0 +1,36 @@
+.tender{
+    height: 500px;
+    width: auto;
+
+}
+
+.copy{
+    width: 60%;
+
+}
+
+.leftSide{ 
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    float: left;
+}
+.rightSide{ 
+    width: 50vw;
+    height: 100%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.youtubeVideo{
+    /* height: auto;  */
+    width: 70%;
+}

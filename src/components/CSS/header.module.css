@@ -6,14 +6,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding-bottom: 4em; */
-    /* margin: 1em; */
-    /* margin: 5% auto; */
-    /* margin-top: 1em; */
     position: fixed;
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 1em;
+    padding-top: .5em;
     right:0;
     left: 0;
     top:0;
