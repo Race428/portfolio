@@ -1,12 +1,10 @@
 import React from "react"
-import { Link } from "gatsby"
 import projectStyles from '../components/CSS/projects.module.css'
-import Layout from "../components/layout"
-import Image from "../images/ales-nesetril-734016-unsplash.jpg"
-import SEO from "../components/seo"
-import TenderConnections from '../images/tender-connections.png'
 
-const IndexPage = () => (
+import SEO from "../components/seo"
+
+
+const Projects = () => (
   <>
     <SEO title="Projects" />
     <div className={projectStyles.leftSide}>
@@ -73,4 +71,4 @@ const IndexPage = () => (
 
 )
 
-export default IndexPage
+export default Projects

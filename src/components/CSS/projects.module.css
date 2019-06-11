@@ -16,7 +16,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    /* background-color: red; */
     float: left;
 }
 .rightSide{ 
@@ -27,7 +27,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .youtubeVideo{
