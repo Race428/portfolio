@@ -7,6 +7,7 @@ import Image from "../images/ales-nesetril-734016-unsplash.jpg"
 import Skills from '../pages/skills'
 import Projects from '../pages/projects'
 import About from '../pages/about'
+import Contact from '../pages/contact'
 
 import SEO from "../components/seo"
 
@@ -26,6 +27,7 @@ const IndexPage = () => (
     <Skills />
     <Projects />
     <About />
+    <Contact /> 
 
 
   </Layout>
