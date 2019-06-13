@@ -28,3 +28,35 @@
     width: 150px;
 }
 }
+
+
+@media screen and (max-width: 600px){
+    .links{
+        font-size: .7em;
+        width: 100%;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: .5em;
+        right:0;
+        left: 0;
+        top:0;
+       background-color: black;
+       z-index: 500;
+    }
+    
+    .links a { 
+        text-decoration: none;
+        color: white;
+        font-family: 'Archivo Black', sans-serif;
+    }
+    
+    #logo{
+        height: 70%;
+        width: 70%;
+    }
+    }

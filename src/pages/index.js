@@ -20,11 +20,12 @@ const IndexPage = () => (
       <div className={indexStyles.parallax}>
 
       </div>
-      <h1>My name is Race Acheson and I am a Web Developer. Scroll down or use the links to learn more about who I am and what I do!</h1>
+      <h1>My name is Race Acheson. and I am a Web Developer. Scroll down or use the links to learn more about who I am and what I do!</h1>
     </div>
     <div className={indexStyles.page}></div>
-
+<div id='skills'>
     <Skills />
+    </div>
     <Projects />
     <About />
     <Contact /> 

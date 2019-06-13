@@ -1,3 +1,5 @@
+@media screen and(min-width:601px){
+
 .photoName{
     display: flex;
     flex-direction:  column;
@@ -24,4 +26,22 @@
 
 .resume{
     padding-top: 50px;
+}
+
+
+}
+
+
+
+@media screen and(max-width:600px){
+
+
+
+
+
+
+
+
+
+    
 }
