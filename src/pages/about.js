@@ -11,6 +11,12 @@ const About = () => (
     <article>
        My name is Race. I am 23 years old. I have been an Entrepreneur since I was 8 years old mowing lawns. I have been thinking up business solutions since I was in the single digits. After educating myself and making my own sites, I am on the search for the next big opportunity to make a difference!
     </article>
+
+<div className={aboutStyles.resume}>
+    <a href='https://www.linkedin.com/in/race/' target="_blank" >
+        <h3>CLICK HERE TO SEE MY RESUME!</h3>
+        </a>
+        </div>
     
     </div>
     </div>
