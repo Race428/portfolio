@@ -7,7 +7,8 @@ import SEO from "../components/seo"
 const Projects = () => (
   <>
     <SEO title="Projects" />
-    <div className={projectStyles.leftSide}>
+    <div id='projects'></div>
+    <div className={projectStyles.leftSide} >
       <div className={projectStyles.copy}>
         <h2>PERSONAL PROJECT</h2>
         <h4> Tender Connections is my full-stack application that connects people who like the same food. Upon registering, you select your food preference. On your main page you can see every dish that was posted.You also see all the dishes that match your preferences. The last column, which is empty when you first register is where the dishes you like are stored. After selecting a dish or two, you can then go to your profile and click matches. You then see all the dishes you like as well as all those who also liked it. You can view their profile and even chat with them using Socket.io. Your conversation is saved and can be seen every time you rejoin the chat.

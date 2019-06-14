@@ -12,15 +12,21 @@ import Header from '../components/header'
 
 import SEO from "../components/seo"
 
+
+if (typeof window !== "undefined") {
+  // eslint-disable-next-line global-require
+  require("smooth-scroll")('a[href*="#"]')
+}
+
 const IndexPage = () => (
   <Layout>
 
 
 
     <SEO title="Home" />
-    <Header /> 
+    <Header  /> 
+<div id='home'></div>
     <div className={indexStyles.home}>
-
       <div className={indexStyles.text}></div>
 
 
@@ -36,20 +42,23 @@ const IndexPage = () => (
       </div>
 
     </div>
-    <div className={indexStyles.page}></div>
-
+    {/* <div id='skills'></div> */}
+    <div className={indexStyles.page} id='skills'></div>
+    
+ 
     <Skills />
 
     <div className={indexStyles.page}></div>
-    {/* <br /> */}
 
-    <Projects />
+
+  
+    <Projects/>
     <div className={indexStyles.page}></div>
 
-    <About />
+    <About/>
+   
 
-
-    <Contact />
+    <Contact/>
     {/* <div className={indexStyles.page}></div> */}
 
 

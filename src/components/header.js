@@ -4,29 +4,30 @@ import React from "react"
 import styles from './CSS/header.module.css'
 import Logo from '../images/whitelogo.png'
 
+
 const Header = ({ siteTitle }) => (
   <header>
     <div className={styles.links}>
     
     
         <Link
-          to="/">
+          to="/#home">
        <div className={styles.logo}>
         <img id={styles.logo} src ={Logo} alt ='logo' />
         </div> 
        
         </Link>
         <div className={styles.textLinks}>
-        <Link to='/skills'>
+        <Link to='/#skills'>
         <a>SKILLS</a>
         </Link>
-        <Link to='/projects'>
+        <Link to='/#projects'>
         <a>PROJECTS</a>
         </Link>
-        <Link to='/about'>
+        <Link to='/#about'>
         <a>ABOUT</a>
         </Link>
-        <Link to='/contact'>
+        <Link to='/#contact'>
         <a>CONTACT</a>
         </Link>
         </div>

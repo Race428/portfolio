@@ -10,6 +10,8 @@ import SEO from "../components/seo"
 
 const Contact = () => (
   <>
+    <div id='contact'></div>
+
     <div className={contactStyles.container}>
 
      
