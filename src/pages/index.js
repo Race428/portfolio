@@ -45,16 +45,14 @@ const IndexPage = () => (
     {/* <div id='skills'></div> */}
     <div className={indexStyles.page} id='2' ></div>
     
- 
     <Skills />
 
-  
 
 
-    <div className={indexStyles.page}></div>
+    <div className={indexStyles.page} id='3'></div>
     <Projects/>
-    <div className={indexStyles.page}></div>
 
+    <div className={indexStyles.page} ></div>
     <About/>
    
 
@@ -63,7 +61,7 @@ const IndexPage = () => (
 
 
     <div className={indexStyles.madeRace}>
-      <p id=''>Made by Race Acheson using Gatsby</p>
+      <p id='5'>Made by Race Acheson using Gatsby</p>
     </div>
   </Layout>
 )
