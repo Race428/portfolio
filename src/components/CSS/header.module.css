@@ -1,18 +1,19 @@
 @media only screen and (min-width: 601px){
     .links{
-        font-size: 1em;
-        width: 100%;
+        font-size: 2em;
+        width: 100vw;
         text-decoration: none;
         display: flex;
         align-items: center;
         justify-content: space-around;
         position: fixed;
+        margin: auto;
         /* padding-left: 20%; */
-        padding-right: 20%;
+        /* margin-right: 20%; */
         padding-top: .9em;
-        right:0;
-        left: 0;
         top:0;
+        /* right:20%; */
+     
        background-color: black;
        z-index: 500;
     }
@@ -21,6 +22,9 @@
         text-decoration: none;
         color: white;
         font-family: 'Archivo Black', sans-serif;
+        padding-left:35px;
+        padding-right:35px;
+
     }
     
     #logo{
@@ -34,21 +38,29 @@
         .links{
             /* font-size: .7em; */
             height: 120px;
-            width: 100%;
+            width: 100vw;
             /* text-decoration: none; */
             display: flex;
             justify-content: center;
             align-items: center;
             position: fixed;
-       /* margin: auto; */
+            margin: auto;
             padding-top: 2em;
-            right:50;
-            left: 50;
             top:0;
-           background-color: black;
-           z-index: 500;
+             background-color: black;
+             z-index: 500;
         }
         
+
+
+
+ 
+
+
+
+
+
+
         .links a {
             /* all: none; */
         }

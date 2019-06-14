@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-import { Helmet } from 'react-helmet'
+
 
 
 import Header from "./header"
@@ -33,11 +33,11 @@ const Layout = ({ children }) => (
           <main>
 
     
-              <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-
           
 
-              <Header siteTitle={data.site.siteMetadata.title} />
+              <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+
+             
 
               {children}
               <div >

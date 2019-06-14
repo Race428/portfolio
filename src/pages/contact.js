@@ -13,7 +13,7 @@ const Contact = () => (
     <div className={contactStyles.container}>
 
      
-      <h3>Contact Me!</h3>
+      <h1>Connect with me!</h1>
       
       <div className={contactStyles.contactinfo}>
         <div className={contactStyles.contactLogo}>
@@ -42,7 +42,7 @@ const Contact = () => (
       
       
       <div className={contactStyles.contactLogo} id ={contactStyles.phone}>
-      <a>
+      <a href='tel:8012287585'>
       <img src={cell} alt='cellphone' />
       <p>801-228-7585</p>
       </a>

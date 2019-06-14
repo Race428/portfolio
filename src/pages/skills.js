@@ -23,7 +23,7 @@ const IndexPage = () => (
 
     <div className={skillStyles.title}>
       <h1>SKILLS</h1>
-      <h5>After building a few full-stack applications, I have obtained skills by using these technologies.</h5>
+      <h2>After building a few full-stack applications, I have obtained skills by using these technologies.</h2>
       </div>
 
 

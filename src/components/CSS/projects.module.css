@@ -44,6 +44,7 @@
 }
 
 }
+
 @media only screen and (max-width:600px){
 
 .leftSide{
@@ -56,6 +57,8 @@
     align-items: center;
     margin: auto;
     margin-bottom: 2em;
+    margin-top: 10em;
+
 }
 
 
@@ -65,7 +68,8 @@
     /* float: right; */
     display: flex;
     flex-direction: column;
-    margin-top: 2em;
+    margin-top: 20em;
+    
     justify-content: center;
   
     align-items: center;
@@ -75,7 +79,7 @@
 }
 
 .copy{
-    width: 90%;
+    width: 80%;
 
 }
 
@@ -84,8 +88,10 @@
     width: 90%;
 
     margin: auto;
+    /* padding:auto; */
     object-fit: contain;
     padding-bottom: 2em;
+    /* display: inline-block; */
 
 }
 

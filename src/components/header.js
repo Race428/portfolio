@@ -18,16 +18,16 @@ const Header = ({ siteTitle }) => (
         </Link>
         <div className={styles.textLinks}>
         <Link to='/skills'>
-        <a>Skills</a>
+        <a>SKILLS</a>
         </Link>
         <Link to='/projects'>
-        <a>Projects</a>
+        <a>PROJECTS</a>
         </Link>
-        <Link to='/skills'>
-        <a>About</a>
+        <Link to='/about'>
+        <a>ABOUT</a>
         </Link>
         <Link to='/contact'>
-        <a>Contact</a>
+        <a>CONTACT</a>
         </Link>
         </div>
     </div>
