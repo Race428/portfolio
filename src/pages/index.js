@@ -43,7 +43,7 @@ const IndexPage = () => (
 
     </div>
     {/* <div id='skills'></div> */}
-    <div className={indexStyles.page} id='skills'></div>
+    <div className={indexStyles.page} ></div>
     
  
     <Skills />
