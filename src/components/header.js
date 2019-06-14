@@ -11,11 +11,12 @@ const Header = ({ siteTitle }) => (
     
         <Link
           to="/">
-       <div className='logso'>
+       <div className={styles.logo}>
         <img id={styles.logo} src ={Logo} alt ='logo' />
         </div> 
-        
+       
         </Link>
+        <div className={styles.textLinks}>
         <Link to='/skills'>
         <a>Skills</a>
         </Link>
@@ -28,7 +29,7 @@ const Header = ({ siteTitle }) => (
         <Link to='/contact'>
         <a>Contact</a>
         </Link>
-     
+        </div>
     </div>
   </header>
 )

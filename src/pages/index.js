@@ -15,20 +15,28 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className={indexStyles.home}>
+    <img src={Image} alt ='background' className={indexStyles.background} /> 
+       <div className={indexStyles.text}></div>
 
 
-      <div className={indexStyles.parallax}>
+      <div className={indexStyles.parallax} >
 
       </div>
-      <h1>My name is Race Acheson. and I am a Web Developer. Scroll down or use the links to learn more about who I am and what I do!</h1>
+    
+      <div className={indexStyles.text}>
+        <h1>My name is Race Acheson.</h1>
+        <h1>I am a Web Developer.</h1>
+        <h1> Scroll down to see more!</h1>
+      </div>
+   
     </div>
     <div className={indexStyles.page}></div>
-<div id='skills'>
-    <Skills />
+    <div id='skills'>
+      <Skills />
     </div>
     <Projects />
     <About />
-    <Contact /> 
+    <Contact />
 
 
   </Layout>

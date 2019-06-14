@@ -1,4 +1,4 @@
-@media screen and(min-width:601px){
+@media  only screen and (min-width:601px){
 
 .photoName{
     display: flex;
@@ -11,7 +11,7 @@
     height: 100vh;
 }
 
-#race{ 
+.race{ 
     border-radius: 1000px;
     height: 200px;
     width: auto;

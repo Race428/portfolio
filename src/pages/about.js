@@ -5,7 +5,7 @@ import Race from '../images/Race.jpg'
 const About = () => (
     <>
 <div className={aboutStyles.photoName}>
-    <img id ={aboutStyles.race}src={Race} alt ='race' /> 
+    <img className={aboutStyles.race} src={Race} alt ='race' /> 
     <h1>Race Acheson</h1>
     <div className={aboutStyles.description}>
     <article>
