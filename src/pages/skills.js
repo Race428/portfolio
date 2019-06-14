@@ -17,7 +17,6 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <>
-    <div id='skills'></div>
     <SEO title="skills" />
     
 

@@ -43,7 +43,7 @@ const IndexPage = () => (
 
     </div>
     {/* <div id='skills'></div> */}
-    <div className={indexStyles.page} ></div>
+    <div className={indexStyles.page} id='2' ></div>
     
  
     <Skills />
@@ -63,7 +63,7 @@ const IndexPage = () => (
 
 
     <div className={indexStyles.madeRace}>
-      <p id='contact'>Made by Race Acheson using Gatsby</p>
+      <p id=''>Made by Race Acheson using Gatsby</p>
     </div>
   </Layout>
 )

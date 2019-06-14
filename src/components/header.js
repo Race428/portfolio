@@ -15,19 +15,25 @@ const Header = ({ siteTitle }) => (
        <div className={styles.logo}>
         <img id={styles.logo} src ={Logo} alt ='logo' />
         </div> 
-       
         </Link>
+
+
         <div className={styles.textLinks}>
-        <Link to='/#skills'>
+        <Link to='/#2'>
         <a>SKILLS</a>
         </Link>
-        <Link to='/#projects'>
+
+
+
+        <Link to='/#3'>
         <a>PROJECTS</a>
         </Link>
-        <Link to='/#about'>
+
+        <Link to='/#4'>
         <a>ABOUT</a>
         </Link>
-        <Link to='/#contact'>
+
+        <Link to='/#5'>
         <a>CONTACT</a>
         </Link>
         </div>
