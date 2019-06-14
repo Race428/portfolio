@@ -14,7 +14,7 @@ const About = () => (
 
 <div className={aboutStyles.resume}>
     <a href={`https://s3-us-west-1.amazonaws.com/tender-connections/Race's+Resume`} target="_blank" >
-        <h3>CLICK HERE TO SEE MY RESUME!</h3>
+        <h2>CLICK HERE TO SEE MY RESUME!</h2>
         </a>
         </div>
     
