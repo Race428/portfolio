@@ -41,12 +41,12 @@ const Layout = ({ children }) => (
 
               {children}
               <div >
-                <footer >
+                {/* <footer >
                   <p className='footer'>© {new Date().getFullYear()}, Built by Race Acheson using
             {` `}
                     <a href="https://www.gatsbyjs.org">Gatsby</a>
                   </p>
-                </footer>
+                </footer> */}
               </div>
           
           </main>

@@ -18,12 +18,12 @@ const IndexPage = () => (
   
     <SEO title="Home" />
     <div className={indexStyles.home}>
-    <img src={Image} alt ='background' className={indexStyles.background} /> 
+   
        <div className={indexStyles.text}></div>
 
 
+      <img src={Image} alt ='background' className={indexStyles.background} /> 
       <div className={indexStyles.parallax} >
-
       </div>
     
       <div className={indexStyles.text}>
@@ -34,12 +34,12 @@ const IndexPage = () => (
    
     </div>
     <div className={indexStyles.page}></div>
-    <div id='skills'>
+    <div id={indexStyles.Skills}>
       <Skills />
     </div>
-    <Projects />
-    <About />
-    <Contact />
+    {/* <Projects /> */}
+    {/* <About /> */}
+    {/* <Contact /> */}
 
   
 

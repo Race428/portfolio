@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+    text-align: center;
     /* width: 500px; */
 }
 
@@ -38,12 +39,29 @@
 .allSkills{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-auto-rows:200px;
-    width: 90%;
+    grid-auto-rows:80%;
+    width: 90vw;
     margin: auto;
     /* align-items: center; */
     /* justify-content: space-evenly; */
     /* justify-content
     : space-around; */
     /* align-items: center; */
+}
+
+
+@media only screen and (max-width:600px){
+
+    #skill{
+        height: 20px;
+        width: 20px;
+    }
+
+
+    .skill{
+        width: 50px;
+    }
+    .skill p  {
+        font-size: .5em;
+    }
 }
