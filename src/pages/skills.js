@@ -30,18 +30,18 @@ const IndexPage = () => (
       <div className={skillStyles.allSkills}>
         <div className={skillStyles.skill} id='node'>
 
-          <img id='skill' src={node} alt='node' />
+          <img id={skillStyles.skill} src={node} alt='node' />
           <p>Node</p>
         </div>
 
         <div className={skillStyles.skill} id='react'>
-          <img id='skill' src={react} alt='react' />
+          <img id={skillStyles.skill} src={react} alt='react' />
           <p>React</p>
         </div>
 
 
         <div className={skillStyles.skill} id='redux'>
-          <img id='skill' src={redux} alt='redux' />
+          <img id={skillStyles.skill} src={redux} alt='redux' />
           <p>Redux</p>
         </div>
 
@@ -49,41 +49,41 @@ const IndexPage = () => (
 
 
         <div className={skillStyles.skill} id='gatsby'>
-          <img id='skill' src={gatsby} alt='gatsby' />
+          <img id={skillStyles.skill} src={gatsby} alt='gatsby' />
           <p>Gatsby</p>
         </div>
 
         <div className={skillStyles.skill} id='postgres'>
-          <img id='skill' src={postgres} alt='postgressql' />
+          <img id={skillStyles.skill} src={postgres} alt='postgressql' />
           <p>PostgreSql</p>
         </div>
 
         <div className={skillStyles.skill} id='css3'>
-          <img id='skill' src={CSS} alt='css3' />
+          <img id={skillStyles.skill} src={CSS} alt='css3' />
           <p>CSS3</p>
         </div>
 
 
 
         <div className={skillStyles.skill} id='html5'>
-          <img id='skill' src={html} alt='html5' />
+          <img id={skillStyles.skill} src={html} alt='html5' />
           <p>HTML5</p>
         </div>
 
 
         <div className={skillStyles.skill} id='javascript'>
-          <img id='skill' src={js} alt='javascript' />
+          <img id={skillStyles.skill} src={js} alt='javascript' />
           <p>JavaScript</p>
         </div>
 
         <div className={skillStyles.skill} id='aws3'>
-          <img id='skill' src={s3} alt='aws3' />
+          <img id={skillStyles.skill} src={s3} alt='aws3' />
           <p>AWS S3</p>
         </div>
 
 
         <div className={skillStyles.skill} id='socket'>
-          <img id='skill' src={socket} alt='socket.io' />
+          <img id={skillStyles.skill} src={socket} alt='socket.io' />
           <p>Socket.io</p>
         </div>
 

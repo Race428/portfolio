@@ -13,6 +13,9 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
+ 
+ 
+  
     <SEO title="Home" />
     <div className={indexStyles.home}>
     <img src={Image} alt ='background' className={indexStyles.background} /> 
@@ -38,8 +41,9 @@ const IndexPage = () => (
     <About />
     <Contact />
 
+  
 
-  </Layout>
+  </Layout> 
 )
 
 export default IndexPage
