@@ -41,7 +41,7 @@ const Contact = () => (
       </div>
       
       
-      <div className={contactStyles.contactLogo}>
+      <div className={contactStyles.contactLogo} id ={contactStyles.phone}>
       <a>
       <img src={cell} alt='cellphone' />
       <p>801-228-7585</p>

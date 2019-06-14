@@ -34,15 +34,24 @@ const IndexPage = () => (
    
     </div>
     <div className={indexStyles.page}></div>
-    <div id={indexStyles.Skills}>
+
       <Skills />
-    </div>
-    {/* <Projects /> */}
-    {/* <About /> */}
-    {/* <Contact /> */}
+ 
+      <div className={indexStyles.page}></div>
 
-  
+    <Projects />
+    <div className={indexStyles.page}></div>
 
+    <About />
+   
+
+    <Contact />
+    {/* <div className={indexStyles.page}></div> */}
+
+
+  <div className={indexStyles.madeRace}>
+<p>Made by Race Acheson using Gatsby</p>
+</div>
   </Layout> 
 )
 
