@@ -5,7 +5,9 @@
     align-items: center;
     margin: auto;
     text-align: center;
+    margin-top: 15em;
     /* width: 500px; */
+
 }
 
 .skill{ 
@@ -47,6 +49,8 @@
     /* justify-content
     : space-around; */
     /* align-items: center; */
+    margin-bottom: 15em;
+
 }
 
 

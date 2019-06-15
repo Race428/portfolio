@@ -4,6 +4,7 @@ import gmail from '../images/gmail.png'
 import github from '../images/github.png'
 import linkedin from '../images/linkedin.png'
 import cell from '../images/cell.png'
+import Header from '../components/header'
 
 import SEO from "../components/seo"
 
@@ -11,8 +12,9 @@ import SEO from "../components/seo"
 const Contact = () => (
   <>
 
+  <Header /> 
 
-    <div className={contactStyles.container} id= '5'>
+    <div className={contactStyles.container}>
 
      
       <h1>Connect with me!</h1>

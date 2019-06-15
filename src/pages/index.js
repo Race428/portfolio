@@ -13,10 +13,10 @@ import Header from '../components/header'
 import SEO from "../components/seo"
 
 
-if (typeof window !== "undefined") {
-  // eslint-disable-next-line global-require
-  require("smooth-scroll")('a[href*="#"]')
-}
+// if (typeof window !== "undefined") {
+//   // eslint-disable-next-line global-require
+//   require("smooth-scroll")('a[href*="#"]')
+// }
 
 const IndexPage = () => (
   <Layout>
@@ -43,16 +43,16 @@ const IndexPage = () => (
 
     </div>
     {/* <div id='skills'></div> */}
-    <div className={indexStyles.page} id='2' ></div>
+    {/* <div className={indexStyles.page}></div> */}
     
     <Skills />
 
 
 
-    <div className={indexStyles.page} id='3'></div>
+    {/* <div className={indexStyles.page} ></div> */}
     <Projects/>
 
-    <div className={indexStyles.page} ></div>
+    {/* <div className={indexStyles.page} ></div> */}
     <About/>
    
 
@@ -61,7 +61,7 @@ const IndexPage = () => (
 
 
     <div className={indexStyles.madeRace}>
-      <p id='5'>Made by Race Acheson using Gatsby</p>
+      <p>Made by Race Acheson using Gatsby</p>
     </div>
   </Layout>
 )

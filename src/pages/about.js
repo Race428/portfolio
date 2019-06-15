@@ -1,9 +1,10 @@
 import React from 'react'
 import aboutStyles from '../components/CSS/about.module.css'
 import Race from '../images/Race.jpg'
-
+import Header from '../components/header'
 const About = () => (
     <>
+    <Header/> 
 <div className={aboutStyles.photoName} >
     <div id ='4'></div>
     <img className={aboutStyles.race} src={Race} alt ='race' /> 
@@ -14,7 +15,7 @@ const About = () => (
     </article>
 
 <div className={aboutStyles.resume}>
-    <a href={`https://s3-us-west-1.amazonaws.com/tender-connections/Race's+Resume`} target="_blank" >
+    <a href={`https://s3-us-west-1.amazonaws.com/tender-connections/Race+Dev+Resume.pdf`} target="_blank" >
         <h2>CLICK HERE TO SEE MY RESUME!</h2>
         </a>
         </div>

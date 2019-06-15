@@ -13,10 +13,12 @@ import s3 from '../images/s3.png'
 import socket from '../images/socket.png'
 import node from '../images/node.png'
 import SEO from "../components/seo"
+import Header from '../components/header'
 
 
 const IndexPage = () => (
   <>
+  <Header /> 
     <SEO title="skills" />
     
 

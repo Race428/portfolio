@@ -15,6 +15,7 @@
     border-radius: 1000px;
     height: 300px;
     width: auto;
+    margin-top: 5em;
 }
 
 .description{
@@ -30,6 +31,9 @@
 
 
 
+article { 
+    font-size: 2em;
+}
 
 
 
