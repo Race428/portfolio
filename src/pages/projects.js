@@ -33,15 +33,15 @@ const Projects = () => (
             <li>Stripe to accept generous donations </li>
           </ul>
 
-          I hope you enjoy watching my short demo video! If you feel up to it, feel free to make an account!
+          {/* I hope you enjoy watching my short demo video! If you feel up to it, feel free to make an account! */}
 </h4>
 
       </div>
-      <div className={projectStyles.youtubeVideo}>
+      {/* <div className={projectStyles.youtubeVideo}>
         <a href=''>
           <h2>Click here to see a video of the project!</h2>
         </a>
-      </div>
+      </div> */}
 
     </div>
 
@@ -78,11 +78,11 @@ const Projects = () => (
 
 
       </div>
-      <div className={projectStyles.youtubeVideo}>
+      {/* <div className={projectStyles.youtubeVideo}>
         <a href=''>
           <h2>Click here to see a video of the project!</h2>
         </a>
-      </div>
+      </div> */}
 
     </div>
   </>
