@@ -55,6 +55,7 @@
 
 .youtubeVideo{
  border-bottom: 1px solid white;
+
 }
 
 }
@@ -87,6 +88,7 @@
     justify-content: center;
   
     align-items: center;
+    margin-bottom: 8em;
     
     /* background-color: blue; */
 
@@ -98,7 +100,12 @@
 }
 
 .youtubeVideo{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    
 
 }
 
