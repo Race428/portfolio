@@ -39,6 +39,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 25em;
+
     /* margin-bottom: 25em; */
 
     
@@ -72,7 +74,7 @@
     align-items: center;
     margin: auto;
     margin-bottom: 2em;
-    margin-top: 10em;
+    margin-top: 6em;
 
 }
 
@@ -88,7 +90,7 @@
     justify-content: center;
   
     align-items: center;
-    margin-bottom: 8em;
+    margin-bottom: 2em;
     
     /* background-color: blue; */
 

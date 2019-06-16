@@ -6,7 +6,7 @@
     align-items: center;
 
     justify-content: center;
-
+padding-top:20em; 
     width: 100vw;
     height: 100vh;
 }
@@ -40,7 +40,10 @@ article {
 @media only screen and (max-width:600px){
 
 
+    .photoName{
+padding-top:5em; 
 
+    }
 
     .race{ 
         border-radius: 1000px;
@@ -54,5 +57,9 @@ article {
         text-align: center;
    
     
+}
+
+article {
+    font-size:1.5em; 
 }
 }
