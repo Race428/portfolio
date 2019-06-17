@@ -12,7 +12,7 @@ const Projects = () => (
     <div className={projectStyles.leftSide} id='3' >
       <div className={projectStyles.copy}>
         <h2>PERSONAL PROJECT</h2>
-       <a href='https://www.tenderconnections.acheson.co' target="_blank">
+       <a href='https://www.tenderconnections.net' target="_blank">
         <h3>Tender Connections</h3>
         </a>
 
