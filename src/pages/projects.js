@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const Projects = () => (
   <>
     <Header />
-    <SEO title="Projects" />
+   
 
     <div className={projectStyles.leftSide} id='3' >
       <div className={projectStyles.copy}>
