@@ -19,8 +19,8 @@ import Header from '../components/header'
 const IndexPage = () => (
   <>
   <Header /> 
-    <SEO title="skills" />
-    
+
+  
 
 
     <div className={skillStyles.title}>
